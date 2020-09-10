@@ -5,7 +5,6 @@
 	<caps add="(vcp(20 30 06))" />
         
 	<controls>
-                <control id="0x02" address="0x02"/> <!-- Tried red but doesn't works, nothing happened -->
                 <control id="defaults" address="0x04" delay="2000"/> <!-- Reset to default + asian language (also backlight) -->
                 <control id="defaultluma" address="0x05" delay="2000"/> <!-- Reset to default (also backlight) -->
                 <control id="0x06" address="0x06"/> <!-- Reset geometry  nothing happened when defaultgeom-->
